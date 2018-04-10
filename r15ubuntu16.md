@@ -3,6 +3,8 @@
 Hardware: Gsync Display, SSD+HDD, Nvidia GeForce 1070.
 
 When press Fn+F7, it says "not support for Gsync LCD panel". It means it can't use integrated GPU for gsync display.
+With Gsync LCD panel, we don't need to worry switching between integrated and discreted graphic cards in ubuntu.
+It just works fine after I install CUDA. But that may not mean you can delete windows to save spaces, I didn't test that.
 
 ## Update windows 10 
 Start windows.
