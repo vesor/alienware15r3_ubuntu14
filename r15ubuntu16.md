@@ -4,8 +4,8 @@ Hardware: Gsync Display, SSD+HDD, Nvidia GeForce 1070.
 
 When press Fn+F7, it says "not support for Gsync LCD panel". It means it can't use integrated GPU for gsync display.
 
-## Let windows 10 install
-Just next, next, next filling up your data.
+## Update windows 10 
+Start windows.
 
 You should get a BIOS update alert from the Alienware Update widget. If not,
 right click on the Down arrow icon in the bottom right extra icons `^` thing and 
@@ -77,4 +77,13 @@ Add just before `quiet splash` the word `nomodeset` so it will look like:
 I use wired network, and it seems work fine in ubuntu.
 I use sudo apt update & apt upgrade. Then reboot. (This may not be necessary, but I just did it.)
 
+# Install CUDA
+
+wget "http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.44-1_amd64.deb" -O "cuda-repo-ubuntu1604_8.0.44-1_amd64.deb"
+
+sudo dpkg -i cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
+sudo apt-get update
+sudo apt-get -y install cuda
+sudo modprobe nvidia
+nvidia-smi
 
