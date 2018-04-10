@@ -67,7 +67,7 @@ Now you can click `Install Now`.
 
 In a few minutes you should be good to go!
 
-
+Remember to format HDD to ext4, it should be NTFS by default.
 
 # How to use only the nvidia 1070 GTX card on Alienware 15 R3
 When first time reboot into the newly installed ubuntu, you'll need to modify the boot params when you see the grub menu.
