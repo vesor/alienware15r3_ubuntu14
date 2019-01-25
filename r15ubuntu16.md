@@ -89,3 +89,10 @@ sudo apt-get -y install cuda
 sudo modprobe nvidia
 nvidia-smi
 
+# Sleep / Resume issue
+
+https://askubuntu.com/questions/981657/cannot-suspend-with-nvme-m-2-ssd/981658#981658
+
+# Enable Hibernate (optional)
+
+https://help.ubuntu.com/16.04/ubuntu-help/power-hibernate.html
