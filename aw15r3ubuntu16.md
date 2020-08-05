@@ -99,8 +99,8 @@ https://help.ubuntu.com/16.04/ubuntu-help/power-hibernate.html
 
 # Wifi driver
 
-Recent (202008) kernel update seems break wifi functional. 
-I did what says in https://askubuntu.com/questions/1016903/alienware-17-r4-ubuntu-16-04-wifi-driver 
-Then I found it is for Intel wifi, not Qualcomm wifi on aw15 r3. So I uninstalled it by "sudo make uninstall".
+Recent (202008) kernel update seems break wifi functional.     
+I did what says in https://askubuntu.com/questions/1016903/alienware-17-r4-ubuntu-16-04-wifi-driver     
+Then I found it is for Intel wifi, not Qualcomm wifi on aw15 r3. So I uninstalled it by "sudo make uninstall".    
 Reboot then it works!!! I don't know why. Because I tried reboot several times before and no luck.
 
